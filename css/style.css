@@ -1,1 +1,51 @@
 "# Formulaire-inscription-en-html-css" 
+
+body{
+    background-color: rgb(139, 230, 198);
+    font-family: 'Gill sans','Grill sans MT','Calibri','Trebuchet', sans-serif;
+}
+.form{
+    background-color: white;
+    width: 80%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: auto;
+    
+}
+.container{
+    text-align: center;  
+}
+.info{
+    padding: 10px;
+}
+input{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: rgb(139, 230, 198);
+    height: 35px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.btn{
+    background-color:rgb(139, 230, 198);
+    height: 35px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+p{
+    margin: -5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 255, 255);
+}
